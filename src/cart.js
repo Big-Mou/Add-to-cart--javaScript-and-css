@@ -127,7 +127,7 @@ let TotalAmount = () => {
     // console.log(amount);
     label.innerHTML = `
     <h2>Total Bill : EGP ${amount}</h2>
-    <button class="checkout">Order</button>
+    <button class="checkout">Place Order</button>
     <button onclick="clearCart()" class="removeAll">Clear Cart</button>
     `;
   } else return;
